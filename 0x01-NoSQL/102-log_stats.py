@@ -34,7 +34,7 @@ if __name__ == "__main__":
         {"$project": {
             "_id": 0,
             "ip": "$_id",
-            "count": 1
+            "count": -1
         }}
     ])
 
