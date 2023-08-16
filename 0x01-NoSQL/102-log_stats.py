@@ -40,8 +40,8 @@ if __name__ == "__main__":
 
     print("IPs:")
     for ip_addr in ips:
-        ip = ip.get("ip")
-        count = ip.get("count")
+        ip = ip_addr.get("ip")
+        count = ip_addr.get("count")
         print(f"\t{ip} {count}")
 
     client.close()
